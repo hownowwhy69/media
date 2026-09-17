@@ -13,7 +13,7 @@ async def init_bot():
     MultiMedia.BOT_ID = getme.id
     MultiMedia.BOT_USERNAME = getme.username
     MultiMedia.BOT_NAME = f"{getme.first_name} {getme.last_name}" if getme.last_name else getme.first_name
-    print(f"»» Booted as {MultiMedia.BOT_NAME} (@{MultiMedia.BOT_USERNAME})")
+    print(f"»» Booted as {MultiSaver.BOT_NAME} (@{MultiSaver.BOT_USERNAME})")
   
 # ------------------------------- LOAD MODULES ------------------------------- #
     for all_module in ALL_MODULES:
