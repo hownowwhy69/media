@@ -41,7 +41,7 @@ async def process_link(message, url):
 
     except Exception as e:
         print(f"Error: {e} - Link: {url}")
-        await message.reply_text(f"🛑 Something went wrong.\n\nPlease report it @DevsHubChat\n\nError: {e}")
+        await message.reply_text(f"🛑 Something went wrong.\n\nPlease report it @multisaverchat\n\nError: {e}")
     finally:
         spam_db.discard(user_id)
 
