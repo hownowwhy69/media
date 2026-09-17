@@ -12,7 +12,7 @@ buttons = InlineKeyboardMarkup([
                 [
                   InlineKeyboardButton("ᴀ ʙ ᴏ ᴜ ᴛ", callback_data="about_")
                 ],[
-                  InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/DevsHubChat"),
+                  InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/multisaverchat"),
                   InlineKeyboardButton("🧩 ɪɴғᴏ", callback_data="info_")
                 ]])
 
