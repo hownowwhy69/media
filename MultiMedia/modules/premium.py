@@ -6,7 +6,7 @@ from MultiMedia.core.mongo import premiumsdb
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-buttons = InlineKeyboardMarkup([[InlineKeyboardButton("Devs Laboratory {🇮🇳}", url="https://t.me/DevsLaboratory")]])
+buttons = InlineKeyboardMarkup([[InlineKeyboardButton("Devs Laboratory {🇮🇳}", url="https://t.me/multisaverchat")]])
 
 # ------------------------------------- Add Premium ------------------------------------- #
 
