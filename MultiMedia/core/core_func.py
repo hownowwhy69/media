@@ -27,10 +27,10 @@ async def subscribe(app, message):
     buttons = []
     for status, link in results:
         if status == "banned":
-            await message.reply_text("Sorry Sir, You are Banned. Contact My Support Group @DevsHubChat")
+            await message.reply_text("Sorry Sir, You are Banned. Contact My Support Group @MultiSaverchat")
             return True
         if status == "error":
-            await message.reply_text("Something Went Wrong. Contact My Support Group @DevsHubChat")
+            await message.reply_text("Something Went Wrong. Contact My Support Group @MultiSaverchat")
             return True
         if status == "not_joined":
             buttons.append([InlineKeyboardButton("📢 Join Channel", url=link)])
